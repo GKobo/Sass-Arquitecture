@@ -1,8 +1,7 @@
 Organizacion de la aquitectura sass
 
 
-
-sass/
+sass/  
 |
 |– base/
 |   |– _reset.scss       # Reset/normalize

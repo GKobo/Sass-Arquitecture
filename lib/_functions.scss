@@ -1,3 +1,16 @@
+/*------------------------------------*\
+		$FONT-SIZES
+\*------------------------------------*/
+
 @function fs($font-size) {
 	@return map-get($size-vars, $font-size);
-  }
+}
+
+
+/*------------------------------------*\
+		$BREAK-POINTS
+\*------------------------------------*/
+
+@function breakpoint($name) {
+	@return map_get($breakpoints, $name);
+}
